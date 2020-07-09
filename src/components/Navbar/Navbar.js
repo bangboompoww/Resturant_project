@@ -10,7 +10,7 @@ const Navbar = () => {
 
             </Nav.Item>
 			<Nav.Item as="li">
-				<Nav.Link eventKey="link-1"><h4 className="linkText">About us</h4></Nav.Link>
+				<Nav.Link eventKey="link-1"><h4 className="linkText">Order Here</h4></Nav.Link>
 			</Nav.Item>
 			
 		</Nav>
