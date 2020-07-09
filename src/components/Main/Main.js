@@ -4,7 +4,7 @@ import './Main.css'
 const Main = () => {
     return (
         <React.Fragment>
-            <img className="Main" src="https://images.unsplash.com/photo-1534939561126-855b8675edd7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
+            <img className="Main" src="https://images.unsplash.com/photo-1576621246253-6a815a0edf1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80"
          />
         </React.Fragment>
     )

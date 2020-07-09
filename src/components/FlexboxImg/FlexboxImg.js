@@ -18,7 +18,7 @@ const FlexboxImg = () => {
             <img className="img7" src="https://images.unsplash.com/photo-1578704310847-337468a863d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80" />
             <img className="img8" src="https://images.unsplash.com/photo-1537516803400-bf9d09ae3d2f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=60" />
             <img className="img9" src="https://images.unsplash.com/photo-1548943487-a2e4e43b4853?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" />
-            <img className="img10" src="https://images.unsplash.com/photo-1548943487-a2e4e43b4853?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" />
+            <img className="img10" src="https://images.unsplash.com/photo-1552912470-ee2e96439539?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80" />
 
 
            
