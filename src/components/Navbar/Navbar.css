@@ -1,0 +1,10 @@
+.Navbar{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none      !important;
+
+
+}
+.linkText{ color: black ; }
+
