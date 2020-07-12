@@ -1,24 +1,19 @@
 import React, { Component } from 'react';
-import Navbar from './components/Navbar/Navbar'
-import Main from './components/Main/Main'
-import Section from './components/Section/Section'
-import FlexboxImg from './components/FlexboxImg/FlexboxImg'
-import SectionUnder from './components/SectionUnder/SectionUnder'
-import './index.css'
-import SocialMedia from './components/SocialMedia/SocialMedia';
+import Home from './components/Home/Navlink2';
+import './index.css';
+import { Route, Switch, Link, NavLink, Redirect, BrowserRouter } from 'react-router-dom';
+import Order from './components/Order/Order';
+import NavLink2 from './components/Home/Navlink2';
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-      <Navbar />
-      <Main />
-      <Section />
-      <FlexboxImg />
-      <SocialMedia />
-      <SectionUnder />
-      </div>
-    );
-  }
+	render() {
+		return (
+			<div className="App">
+			
+
+			<Home />
+			</div>
+		);
+	}
 }
 
 export default App;
