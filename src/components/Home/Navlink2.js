@@ -1,6 +1,8 @@
 import React from 'react';
 import Navbar from './Home'
 import { MDBBtn } from "mdbreact";
+import { Route, Switch, Link, BrowserRouter, Router } from 'react-router-dom';
+
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from 'mdbreact';
 import './Home.css'
 const NavLink2 = () => {
@@ -8,10 +10,11 @@ const NavLink2 = () => {
 		<div> 
         <Navbar />
         <React.Fragment>
+        
         <img
             className="Main"
             src="https://images.unsplash.com/photo-1576621246253-6a815a0edf1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80"
-            fluid
+            
         />
     </React.Fragment>
     <React.Fragment>
@@ -33,31 +36,30 @@ const NavLink2 = () => {
         <img
             className="img1"
             src="https://images.unsplash.com/photo-1535400875775-0269e7a919af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
-            fluid
+            
         />
 
         <img
             className="img2"
             src="https://images.unsplash.com/photo-1564836235910-c3055ca0f912?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
-            fluid
+           
         />
 
         <img
             className="img3"
             src="https://images.unsplash.com/photo-1539755530862-00f623c00f52?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
-            fluid
+          
         />
 
         <img
             className="img4"
             src="https://images.unsplash.com/photo-1590412200988-a436970781fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80"
-            fluid
+            
         />
 
         <img
             className="img5"
             src="https://images.unsplash.com/photo-1511378156040-1259b5bcd0fb?ixlib=rb-1.2.1&auto=format&fit=crop&w=927&q=80"
-            fluid
         />
 
         <img
@@ -67,17 +69,17 @@ const NavLink2 = () => {
         <img
             className="img7"
             src="https://images.unsplash.com/photo-1578704310847-337468a863d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
-            fluid
+            
         />
         <img
             className="img8"
             src="https://images.unsplash.com/photo-1537516803400-bf9d09ae3d2f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=60"
-            fluid
+            
         />
         <img
             className="img9"
             src="https://images.unsplash.com/photo-1548943487-a2e4e43b4853?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
-            fluid
+            
         />
         <img
             className="img10"
@@ -99,7 +101,6 @@ const NavLink2 = () => {
                 <MDBCol md="3">
                     <h1 className="Location"> Location <img className="footerlogo" src="https://img.icons8.com/plasticine/100/000000/worldwide-location.png"/> </h1>
                     <h2 className="Location1">
-                        {' '}
                         123 New York St #123 <br /> New York, NY 33333
                     </h2>
                 </MDBCol>
