@@ -16,12 +16,7 @@ const Navbar = () => {
 				</Link>
 			</div>
 			
-			<Switch>
-				<Route  exact path="/" />
-
-				<Route exact component={Order} path="/order">
-				</Route>
-			</Switch>
+		
 		</div>
 	);
 };

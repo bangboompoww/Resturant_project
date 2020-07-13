@@ -8,9 +8,13 @@ class App extends Component {
 	render() {
 		return (
 			<div className="App">
-			
+				<Switch>
+				<Route  component={Home} exact path="/" />
 
-			<Home />
+				<Route 
+				 component={Order} path="/order"/>
+			</Switch>
+
 			</div>
 		);
 	}
